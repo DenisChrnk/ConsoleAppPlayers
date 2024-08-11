@@ -13,7 +13,7 @@ public class MyTest {
 
     public static void main(String[] args) throws IOException {
         String nickname = "Nikita";
-        Files.deleteIfExists(Path.of("./data.json"));
+        Files.deleteIfExists(Path.of("./fileForEquals.json"));
         PlayerService service = new PlayerServiceImpl();
 
         TestCase case1 = new TestCase("1. добавить игрока - проверить наличие в списке", () -> {

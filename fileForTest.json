@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nick": "Nikita",
+    "points": 22,
+    "online": true
+  },
+  {
+    "id": 1,
+    "nick": "Nikita",
+    "points": 22,
+    "online": true
+  },
+  {
+    "id": 2,
+    "nick": "Nikita2",
+    "points": 2,
+    "online": true
+  },
+  {
+    "id": 3,
+    "nick": "Nikita3",
+    "points": 3,
+    "online": true
+  }
+]

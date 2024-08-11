@@ -35,6 +35,9 @@ public class PlayerServiceImpl implements PlayerService {
         if (nicknames.contains(nickname)) {
             throw new IllegalArgumentException("Nickname is already in use: " + nickname);
         }
+        if (nickname.isEmpty()) {
+            throw new IllegalArgumentException("Nickname is already in use: " + nickname);
+        }
 
         counter++;
         Player player = new Player(counter, nickname, 0, true);
